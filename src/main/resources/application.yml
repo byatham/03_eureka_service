@@ -1,0 +1,9 @@
+eureka:
+  client:
+    register-with-eureka: false
+spring:
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:1111/
